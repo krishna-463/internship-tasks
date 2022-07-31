@@ -1,0 +1,5 @@
+l1 = int(input())
+l2 = int(input())
+l3 = int(input())
+l4 = int(input())
+print(pow(l1,l2)+pow(l3,l4))
