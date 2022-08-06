@@ -1,0 +1,11 @@
+# Enter your code here. Read input from STDIN. Print output to STDOUT
+n = int(input())
+mean = int(input())
+sigma = int(input())
+dis = float(input())
+z = float(input())
+sigma_ = sigma/pow(100,0.5)
+a = mean-(z*sigma_)
+b = mean+(z*sigma_)
+print(round(a,2),end='\n')
+print(round(b,2),end='\n')
