@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <nav style="background-color: rgb(98, 144, 245); padding: 10px;">
+        <a href="/" style="font-size: 40px; text-decoration: none; color: beige; border: 2px solid beige; background-color: rgb(57, 115, 238)">Home</a>
+        <a href="history" style="font-size: 40px; text-decoration: none; margin-left: 50px; color: beige; border: 2px solid beige; background-color: rgb(57, 115, 238);">History</a>
+    </nav>
+    <h2 style="text-align:center ;background: rgb(0, 0, 0); color: rgb(96, 132, 199);">Here instead of http://127.0.0.1.5000/ I used http://x.urls/s46vk463</h2>
+    <ul>
+        {% for url in urls %}
+        <li style="font-size: 30px; "> {{ url }}</li>
+        {% endfor %}
+    </ul>
+</body>
+</html>
