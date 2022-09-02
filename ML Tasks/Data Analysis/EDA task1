@@ -1,0 +1,28 @@
+Exploratory Data Analysis is very important to get insights on data given to you it posses several steps.
+step-1:
+      Problem Understanding : It need business approach to understand the problem
+step-2:
+      import the data
+step-3:
+      1. Univariate analysis:
+        Distribution --> distplot or histplot
+        Frequency --> countplot
+        Outliers --> boxplot
+      2. Bivariate analysis: (after understanding the problem if it is supervised learning then we can sense the target variable)
+        Correlation --> df.corr() Heatmaps
+        Comparision of categorical Features --> histograms with hue = target column
+step-4:
+      Data preparation:
+       Handling missing values
+       removing outliers
+       data type conversions
+step-5:
+     Data Preprocessing:
+      Feature Engineering --> Converting categorical columns to numerical
+      Data Normalization
+step-6:
+      Data Modeling
+      Getting insights after abserving all the above things
+      
+        
+        
